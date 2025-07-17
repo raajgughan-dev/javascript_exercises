@@ -19,7 +19,7 @@ These exercises focus on fundamental DOM manipulation, event handling, and basic
     * **Requirements**: 
         * An input field for new tasks.
         * An "Add Task" button.
-        * A list (<ul> or <ol>) to display tasks.
+        * A list (<unorderlist(ol)> or <orderlist(ol)>) to display tasks.
         * When the "Add Task" button is clicked, the text from the input field should be added as a new list item.
         * Clear the input field after adding a task.
 

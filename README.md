@@ -1,3 +1,4 @@
+![JavaScript Background](image/javascript.png)
 # JavaScript Web App Development Exercises
 These exercises are designed to help you practice JavaScript in the context of building interactive web applications. They cover concepts from basic DOM manipulation to more advanced data handling and asynchronous operations.
 
@@ -48,4 +49,19 @@ These exercises focus on fundamental DOM manipulation, event handling, and basic
         * A "Decrease Font" button.
         * Clicking the buttons should change the font size of the paragraph (e.g., by 2px each time).
         * Set reasonable minimum and maximum font sizes.
+
+
+# Intermediate Level Web App Exercises
+These exercises involve more dynamic content, form handling, basic data persistence (client-side), and slightly more complex UI interactions.
+
+1. Dynamic Quiz App:
+    * **Goal**: Create a simple multiple-choice quiz.
+    * **Requirements**:
+        * Store quiz questions and answers in a JavaScript array of objects.
+        * Display one question at a time with multiple choice options (radio buttons).
+        * A "Submit Answer" button.
+        * Provide immediate feedback (correct/incorrect) after submission.
+        * Keep track of the score and display it at the end.
+        * Allow users to restart the quiz.
+
 

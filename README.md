@@ -101,4 +101,53 @@ These exercises involve more dynamic content, form handling, basic data persiste
         * Use setInterval and clearInterval.
         * Optionally, play a sound or show an alert when the timer reaches zero.
 
+# Professional Level Web App Exercises
+These exercises introduce more advanced concepts like asynchronous operations (simulated or real API calls), more complex state management, and building reusable components.
 
+1. GitHub User Search (with API):
+    * **Goal**: Create an application that fetches and displays GitHub user profiles.
+    * **Requirements**: 
+        * An input field for a GitHub username.
+        * A "Search" button.
+        * Use the GitHub Users API (https://api.github.com/users/{username}) to fetch data.
+        * Display the user's avatar, name, public repos count, followers, and a link to their profile.
+        * Implement error handling (e.g., user not found, network issues).
+        * Show a loading indicator while fetching data.
+
+2. Simple Shopping Cart:
+    * **Goal**: Build a basic shopping cart system.
+    * **Requirements**: 
+        * Display a list of available products (array of objects with id, name, price)
+        * "Add to Cart" button for each product.
+        * A separate "Cart" section displaying items added, their quantity, and total price.
+        * "Remove from Cart" button for items in the cart.
+        * "Increase/Decrease Quantity" buttons in the cart.
+        * Update totals dynamically.
+        * (Optional) Persist cart data in localStorage.
+
+3. Infinite Scroll/Lazy Loading:
+    * **Goal**: Load content dynamically as the user scrolls down the page.
+    * **Requirement**:
+        * Simulate fetching more data (e.g., from an array or a setTimeout function).
+        * Initially display a limited number of items.
+        * When the user scrolls near the bottom of the page, automatically load and append more items.
+        * Show a "Loading..." message at the bottom while new data is being fetched.
+        * (Optional) Implement a "No more items" message when all data is loaded.
+
+4. Drag-and-Drop Reorder List:
+    * **Goal**: Create a list of items that can be reordered by dragging and dropping them.
+    * **Requirements:**: 
+        * A list of items (e.g., a <unorderlist(ul)> with <listitem(li)> elements).
+        * Make each list item draggable.
+        * Allow users to drag an item and drop it into a new position in the list.
+        * Update the actual order of the items in the DOM.
+        * (Hint: Use dragstart, dragover, dragleave, drop events).
+
+5. Single Page Application (SPA) with Hash Routing:
+    * **Goal**: Build a simple SPA with multiple "pages" (views) using hash-based routing.
+    * **Requirements**: 
+        * Create at least three distinct "pages" (e.g., Home, About, Contact).
+        * Use <a> tags with href="#home", href="#about", etc., for navigation.
+        * Implement JavaScript logic to listen for hashchange events.
+        * Based on the URL hash, dynamically show/hide the corresponding content section, giving the impression of navigating between pages without a full page reload.
+        * Ensure the initial view is correctly rendered based on the starting hash.

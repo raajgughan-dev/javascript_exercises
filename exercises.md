@@ -1,0 +1,2 @@
+# JavaScript Web App Development Exercises
+These exercises are designed to help you practice JavaScript in the context of building interactive web applications. They cover concepts from basic DOM manipulation to more advanced data handling and asynchronous operations.
